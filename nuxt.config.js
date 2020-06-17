@@ -18,15 +18,23 @@ export default {
     /*
     ** Customize the progress-bar color
     */
-    loading: {color: '#fff'},
+    loading: {
+        color: '#4ce3c8',
+        height: '6px'
+    },
     /*
     ** Global CSS
     */
-    css: [],
+    css: [
+        '~/assets/css/custom.css',
+    ],
     /*
     ** Plugins to load before mounting the App
     */
-    plugins: [],
+    plugins: [
+        { src: '~/plugins/vue-unicons', mode: 'client' },
+        { src: '~/plugins/vue-sweetalert', mode: 'client' },
+    ],
     /*
     ** Nuxt.js dev-modules
     */
@@ -42,7 +50,6 @@ export default {
         '@nuxtjs/axios',
         '@nuxtjs/pwa',
         '@nuxtjs/auth',
-        'vue-sweetalert2/nuxt',
     ],
     /*
     ** Axios module configuration
