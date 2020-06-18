@@ -82,7 +82,7 @@ export default {
     },
 
     router: {
-        middleware: ['auth']
+        //middleware: ['auth']
     },
     /*
     ** Build configuration
