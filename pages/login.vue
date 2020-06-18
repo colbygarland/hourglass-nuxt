@@ -3,7 +3,7 @@
         <div class="flex bg-gray-100 min-h-screen min-w-full">
             <div class="m-auto pl-3 pr-3 md:w-1/2 sm:w-auto md:w-1/2 lg:w-1/3 lg:pl-12 lg:pr-12">
                 <div class="max-w-sm m-auto block">
-                    <div class="max-w-xs">
+                    <div class="max-w-xs mx-auto">
                         <img src="~/assets/img/logo.png" alt="Hourglass" class="" />
                     </div>
                     <div v-model="login.error.email" v-if="login.error.email" class="p-3 bg-red-500 text-white rounded">{{ login.error.email}}</div>
@@ -39,7 +39,7 @@
         data() {
             return {
                 login: {
-                    email: 'colbygarland@gmail.com',
+                    email: '',
                     password: '',
                     error: {
                         email: '',
