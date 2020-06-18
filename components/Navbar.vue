@@ -1,21 +1,15 @@
 <template>
-    <div class="p-3 shadow">
-        <div class="flex">
+    <div class="p-3 shadow lg:min-h-screen relative z-10">
+        <div class="flex lg:block lg:px-3">
             <div>
-                <img src="~/assets/img/logo-horizontal.png" alt="hourglass" class="w-40" />
+                <img src="~/assets/img/logo-horizontal.png" alt="hourglass" class="w-40 lg:w-40" />
             </div>
-            <div class="ml-auto lg:mt-5 lg:ml-32">
+            <div class="ml-auto lg:mt-20 lg:ml-0">
                 <div class="mt-2 cursor-pointer lg:hidden">
                     <unicon v-on:click="isHidden = !isHidden" name="layer-group" fill="#00d8b1" icon-style="monochrome" width="40" height="40"></unicon>
                 </div>
                 <div class="hidden lg:block">
                     <menuItems />
-                </div>
-            </div>
-            <div class="hidden lg:block ml-auto">
-                <div class="flex cursor-pointer">
-                    <p>Colby Garland</p>
-                    <unicon name="angle-down" fill="#444"></unicon>
                 </div>
             </div>
         </div>
