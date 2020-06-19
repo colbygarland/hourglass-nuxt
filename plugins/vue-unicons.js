@@ -9,7 +9,9 @@ import {
     uniCalenderMonochrome,
     uniChartMonochrome,
     uniGridMonochrome,
-    uniUserCircle
+    uniUserCircle,
+    uniEllipsisV,
+    uniPlus,
 } from 'vue-unicons/src/icons'
 
 Unicon.add([
@@ -21,7 +23,9 @@ Unicon.add([
     uniCalenderMonochrome,
     uniChartMonochrome,
     uniGridMonochrome,
-    uniUserCircle
-])
+    uniUserCircle,
+    uniEllipsisV,
+    uniPlus,
+]);
 
 Vue.use(Unicon);

@@ -13,7 +13,7 @@
             </nuxt-link>
         </div>
         <div @click="click">
-            <nuxt-link exact to="/projects" :class="classes">
+            <nuxt-link exact to="/projects/" :class="classes">
                 <unicon name="grid" fill="#d6d6d6" icon-style="monochrome" width="25" height="25" class="mr-5"></unicon>
                 Projects
             </nuxt-link>
