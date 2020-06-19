@@ -8,8 +8,8 @@
             </div>
             <div class="ml-auto lg:mt-20 lg:ml-0">
                 <div class="mt-2 cursor-pointer lg:hidden relative">
-                    <unicon v-on:click="menuHidden = !menuHidden" name="user-circle" fill="" height="30" width="30"></unicon>
-                    <unicon v-on:click="isHidden = !isHidden" name="layer-group" fill="#00d8b1" icon-style="monochrome" width="30" height="30"></unicon>
+                    <unicon v-on:click="menuHidden = !menuHidden" name="user-circle" fill="#777" height="30" width="30"></unicon>
+                    <unicon v-on:click="isHidden = !isHidden" name="layer-group" fill="#777" icon-style="monochrome" width="30" height="30"></unicon>
                     <div class="absolute" style="top:50px; right:0;" v-if="menuHidden">
                         <userbarmenu @clicked="onClickChild" />
                     </div>
